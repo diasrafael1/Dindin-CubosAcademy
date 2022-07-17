@@ -1,0 +1,35 @@
+.registro {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 890px;
+    height: 69px;
+    border-top: 1px solid #E0E0E0;
+}
+
+.container-registroDiv {
+    width: 116px;
+}
+
+.container-registroDiv span {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.container-registroIcon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 10px;
+}
+
+.container-registro {
+    position: absolute;
+    width: 236px;
+    height: 196px;
+    left: 1070px;
+    top: 227px;
+}

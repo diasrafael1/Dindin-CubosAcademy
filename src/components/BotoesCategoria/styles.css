@@ -1,0 +1,34 @@
+.btn__filtro {
+    all: unset;
+    width: 90px;
+    height: 25px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn__filtro-selecionado {
+    all: unset;
+    width: 90px;
+    height: 25px;
+    background: #7978D9;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

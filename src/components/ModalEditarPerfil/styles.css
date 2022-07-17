@@ -1,0 +1,55 @@
+.modal-body {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+.modal-editarPerfil {
+    width: 511px;
+    height: 600px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    padding: 56px 64px 0px;
+}
+
+.container-modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.modal__titulo {
+    font-family: 'Rubik';
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.form__button {
+    all: unset;
+    display: block;
+    width: 236px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 48px;
+    background: #7978D9;
+    border-radius: 5px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}

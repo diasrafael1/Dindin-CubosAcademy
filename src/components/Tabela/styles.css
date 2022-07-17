@@ -1,0 +1,190 @@
+.filtro {
+    all: unset;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 25px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-filtro {
+    width: 909px;
+    height: 235px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px 32px 13px;
+}
+
+.filtro__titulo {
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B9B9B9;
+}
+
+.filtros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 700px;
+    height: 114px;
+    margin-bottom: 16px;
+}
+
+.container-btns button {
+    width: 98px;
+    height: 30px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.btn__limparFiltro {
+    all: unset;
+    background: #FAFAFA;
+}
+
+.btn__aplicarFiltro {
+    all: unset;
+    background: #7978D9;
+    color: #FFFFFF;
+    margin-left: 18px;
+}
+
+.header__listaRegistros {
+    width: 909px;
+    height: 58px;
+    margin-top: 61px;
+    padding-left: 20px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.icone-dataDec {
+    transform: rotateX(180deg);
+}
+
+.header__listaRegistros h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.listaRegistros {
+    padding-left: 20px;
+}
+
+.card-registros {
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 26px 33px 31px;
+}
+
+.registros__titulo {
+    font-family: 'Rubik';
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F2F2F;
+    margin-bottom: 23px;
+}
+
+.container-entrada,
+.container-saida,
+.container-saldo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-saida {
+    margin: 10px 0px 17px
+}
+
+.container-saldo {
+    border-top: 1px solid #EAEAEA;
+    padding-top: 16px;
+}
+
+.deletar-icon {
+    position: relative;
+
+}
+
+.entrada__titulo,
+.saida__titulo {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #2F2F2F;
+}
+
+.entrada__valor,
+.saida__valor,
+.saldo__valor {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.entrada__valor {
+    color: #645FFB;
+}
+
+.saida__valor {
+    color: #FA8C10;
+}
+
+.saldo__valor {
+    color: #3A9FF1;
+}
+
+.saldo__titulo {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F2F2F;
+}
+
+.btn-registro {
+    all: unset;
+    margin-top: 16px;
+    width: 236px;
+    height: 42px;
+    background: #7978D9;
+    border-radius: 5px;
+
+    text-align: center;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+}

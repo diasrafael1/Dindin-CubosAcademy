@@ -1,0 +1,32 @@
+.container-home {
+    background: linear-gradient(to right, #07EBE4 0%, #6361FB 100%);
+}
+
+.header__home {
+    padding: 41px 100px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+.header__nomeUsuario {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 16px;
+}
+
+.main__home {
+    background: #FFFFFF;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 79.8vh;
+    padding: 55px 100px;
+}
