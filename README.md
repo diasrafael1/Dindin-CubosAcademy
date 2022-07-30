@@ -1,6 +1,7 @@
 <h1>Dindin</h1>
 
-O objetivo desse desafio era criar um site de controle e gestão de finanças pessoais.
+<p>O objetivo desse desafio era criar um site de controle e gestão de finanças pessoais.</p>
+<a href="https://github.com/diasrafael1/desafio03-apiDindin-CubosAcademy">Link da API</a> utilizada, feita por mim
 
 <h2>Login</h2>
 Tela de login que faz requisição com a API verificando se o usuário é cadastrado ou não.
